@@ -17,6 +17,13 @@
     margin-right: -4px;
 }
 
+.row-m{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +39,11 @@
 .col-s{
     padding-left: 4px;
     padding-right:4px;
+}
+
+.col-m{
+    padding-left: 6px;
+    padding-right:6px;
 }
 
 .col {

@@ -14,6 +14,47 @@
 </head>
 <body>
     <div class="app">
+
+        <div class="float-navigation">
+            <div class="float-navigation__logo">
+                <img src="./assets/img/float-logo" alt="" class="float-navigation__logo-img">
+            </div>
+            <div class="float-navigation__content ">
+                <ul class="float-navigation__list">
+                    <li class="float-navigation-item">
+                        <a href="" class="float-navigation-item-link">
+                            <i class="fa-solid fa-mobile-screen-button float-navigation-item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="float-navigation-item">
+                        <a href="" class="float-navigation-item-link">
+                            <i class="fa-solid fa-video float-navigation-item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="float-navigation-item">
+                        <a href="" class="float-navigation-item-link">
+                            <i class="fa-regular fa-rectangle-list float-navigation-item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="float-navigation-item">
+                        <a href="" class="float-navigation-item-link">
+                            <i class="fa-regular fa-bell float-navigation-item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="float-navigation-item">
+                        <a href="" class="float-navigation-item-link">
+                            <i class="fa-solid fa-headphones-simple float-navigation-item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="float-navigation-item float-navigation-not--appear">
+                        <a href="" class="float-navigation-item-link">
+                            <i class="ti-control-skip-forward float-navigation-item-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
         <div class="header">
             <div class="header-content">
                 <div class="header__navbar-logo">
@@ -52,7 +93,7 @@
                                 <div class="header__category-list">
                                     <div class="row-s">
                                         <div class="header__category-item col-s l-4">
-                                            <a title="Business Tour" class="header__category-item-link" href="#" style="background-image:  url(https://img.nimo.tv/o/banner/453731B75BCE938659359BC84DC0A50_fb5b0c9e2de756d3b02bec317fb9f4d3.jpg/w240_l0/img.webp);">
+                                            <a title="Business Tour" class="header__category-item-link" href="#" style="background-image: url(https://img.nimo.tv/o/banner/453731B75BCE938659359BC84DC0A50_fb5b0c9e2de756d3b02bec317fb9f4d3.jpg/w240_l0/img.webp);">
                                                 <span class="header__category-item-title">
                                                     Business Tour
                                                 </span>
@@ -222,29 +263,42 @@
             </span>
 
             <div class="body__content">
-                <div class="body__navbar">
-                    <span class="body__navbar-title">
-                        <h1 class="body__navbar-title-text">Trò chơi hàng đầu</h1>
-                        <span class="body__navbar-title-option">Xem tất cả
-                            <i class="ti-angle-right body-title-icon">
-                            </i>
-                        </span>
-                    </span>
-                    
-                    <ul class="body__navbar-list">
-                        <div class="body__navbar-item">
-                            <a href="" class="body__navbar-item-link">Toàn bộ</a>
+                <div class="body__navbar body-nav--has">
+                    <div class="body__navbar-title-wrap">
+                        <div class="body__navbar-title">
+                            <h1 class="body__navbar-title-text body__header--has">Trò chơi hàng đầu</h1>
+                            <span class="body__navbar-title-option">
+                                    Xem tất cả
+                                <div class="body__title-icon">
+                                    <i class="ti-angle-right "></i>
+                                </div>
+                            </span>
                         </div>
-                        <div class="body__navbar-item">
-                            <a href="" class="body__navbar-item-link">Mobile game</a>
+                        
+                        <ul class="body__navbar-list">
+                            <div class="body__navbar-item">
+                                <a href="" class="body__navbar-item-link">Toàn bộ</a>
+                            </div>
+                            <div class="body__navbar-item">
+                                <a href="" class="body__navbar-item-link">Mobile game</a>
+                            </div>
+                            <div class="body__navbar-item">
+                                <a href="" class="body__navbar-item-link">Pc Game</a>
+                            </div>
+                            <div class="body__navbar-item">
+                                <a href="" class="body__navbar-item-link">Giải trí </a>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="body__content-pagination btn-pagination">
+                        <div class="body__content-pagination-icon button--not-active btn-pagination-icon">
+                            <i class="ti-angle-left body__pagination-arrow"></i>
                         </div>
-                        <div class="body__navbar-item">
-                            <a href="" class="body__navbar-item-link">Pc Game</a>
+                        <div class="body__content-pagination-icon btn-pagination-icon">
+                            <i class="ti-angle-right body__pagination-arrow"></i>
                         </div>
-                        <div class="body__navbar-item">
-                            <a href="" class="body__navbar-item-link">Giải trí </a>
-                        </div>
-                    </ul>
+                    </div>
                 </div>
 
                 <div class="body__game">
@@ -269,6 +323,18 @@
                                         <!-- </div> -->
                                         </div>
                                     </div>
+
+                                    <div class="cart__title">
+                                        <span class="cart__title-name">
+                                            NimoShow
+                                        </span>
+                                        <span class="cart__title-lives">
+                                            100 lives
+                                        </span>
+                                        <div class="cart__title-category">
+                                            <p>Giải trí</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col l-2 body__game-item">
@@ -286,8 +352,20 @@
                                                 </div>
                                             </div>
                                         <!-- <div class=""> -->
-                                            <img src="/assets/img/gtvA-cart.webp" alt="GTA V">
+                                            <img src="./assets/img/gtvA-cart.webp" alt="GTA V">
                                         <!-- </div> -->
+                                        </div>
+                                    </div>
+
+                                    <div class="cart__title">
+                                        <span class="cart__title-name">
+                                            GTAV
+                                        </span>
+                                        <span class="cart__title-lives">
+                                            10 lives
+                                        </span>
+                                        <div class="cart__title-category">
+                                            <p>PC Game</p>
                                         </div>
                                     </div>
                                 </div>
@@ -307,8 +385,20 @@
                                                 </div>
                                             </div>
                                         <!-- <div class=""> -->
-                                            <img src="/assets/img/lol-cart.webp" alt="Lol">
+                                            <img src="./assets/img/lol-cart.webp" alt="Lol">
                                         <!-- </div> -->
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="cart__title">
+                                        <span class="cart__title-name">
+                                            LMHT
+                                        </span>
+                                        <span class="cart__title-lives">
+                                            46 lives
+                                        </span>
+                                        <div class="cart__title-category">
+                                            <p>PC Game</p>
                                         </div>
                                     </div>
                                 </div>
@@ -332,6 +422,18 @@
                                         <!-- </div> -->
                                         </div>
                                     </div>
+
+                                    <div class="cart__title">
+                                        <span class="cart__title-name">
+                                            PC&CONSOLE
+                                        </span>
+                                        <span class="cart__title-lives">
+                                            10 lives
+                                        </span>
+                                        <div class="cart__title-category">
+                                            <p></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col l-2 body__game-item">
@@ -351,6 +453,18 @@
                                         <!-- <div class=""> -->
                                             <img src="./assets/img/pubgm-cart.webp" alt="PUBGM">
                                         <!-- </div> -->
+                                        </div>
+                                    </div>
+
+                                    <div class="cart__title">
+                                        <span class="cart__title-name">
+                                            PUBGM
+                                        </span>
+                                        <span class="cart__title-lives">
+                                            8 lives
+                                        </span>
+                                        <div class="cart__title-category">
+                                            <p>Mobile Game</p>
                                         </div>
                                     </div>
                                 </div>
@@ -374,12 +488,146 @@
                                         <!-- </div> -->
                                         </div>
                                     </div>
+
+                                    <div class="cart__title">
+                                        <span class="cart__title-name">
+                                            PUBG
+                                        </span>
+                                        <span class="cart__title-lives">
+                                            12 lives
+                                        </span>
+                                        <div class="cart__title-category">
+                                            <p>PC Game</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
                 </div>
+                
+               <div class="grid">
+                <div class="body__event">
+                    <div class="row">
+                        <div class="body__event-item col-m l-6">
+                            <div class="grid">
+                                <div class="row-m">
+                                    <div class="body__event-heading-link-wrap l-12 col-m">
+                                        <a href="" class="body__event-heading-link">
+                                            <h1 class="body__event-text body__header--has">Được đề xuất</h1>
+                                        </a>
+                                    </div>
+                                   <div class="col-m l-8">
+                                        <div class="grid">
+                                            <div class="row-m">
+                                                
+                                            </div>
+                                        </div>
+            
+                                        <div class="body__event-load">
+                                            <img class="body__event-load-img load" src="./assets/img/genshin.webp" alt = "Genshin Impact">
+                                                <div class="body__event-pagination btn-pagination">
+                                                    <div class="body__event-pagination-icon btn-pagination-icon">
+                                                        <i class="ti-angle-left body__pagination-arrow"></i>
+                                                    </div>
+                                                    <div class="body__event-pagination-icon btn-pagination-icon">
+                                                        <i class="ti-angle-right body__pagination-arrow"></i>
+                                                    </div>
+                                                </div>
+                                            </img>
+                                        </div>
+                                   </div>
+
+                                   <div class="col l-4">
+                                        <div class="grid">
+                                            <div class="row-m">
+                                                <div class="col-m l-12 body__event-broad">
+                                                    <a href="" class="body__event-broad-link">
+                                                        <img class="body__event-broad-img load" src="./assets/img/tranhdoat.webp"></img>
+                                                    </a>
+                                                </div>
+                                                <div class="col-m l-12 body__event-broad">
+                                                    <a href="" class="body__event-broad-link">
+                                                        <img class="body__event-broad-img load" src="./assets/img/phong-van.webp"></img>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="body__event-bar body-nav--has">
+                                <div class="body__navbar-title-wrap">
+                                    <div class="body__navbar-title">
+                                        <h1 class="body__navbar-title-text body__header--has">Sự kiện hay</h1>
+                                        <span class="body__navbar-title-option">
+                                                Tất cả lịch thi đấu
+                                            <div class="body__title-icon">
+                                                <i class="ti-angle-right "></i>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="btn-pagination">
+                                    <div class="btn-pagination-icon">
+                                        <i class="ti-angle-left body__pagination-arrow"></i>
+                                    </div>
+                                    <div class="btn-pagination-icon">
+                                        <i class="ti-angle-right body__pagination-arrow"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col l-6 body__event-info">
+                                        <div class="body__event-info-img">
+                                            <a href="" class="body__event-info-img-link" style="background-image: url(https://img.nimo.tv/o/banner/ED75973729E640406BE65AE0BDB8661B_bc71a8778c9644329e9605f2a652a324.png/w640_l0/img.webp);">
+                                                <h3 class="body__event-info-header">
+                                                    WDPVO 2022
+                                                </h3>
+                                                <span class="body__event-info-tag">PUBG</span>
+                                            </a>
+                                        </div>
+                                        <div class="body__event-info-cart">
+                                            <div class="body__event-cart-time">17:00, 10 thg 9</div>
+                                            <div class="body__event-cart-img">
+                                                <img src="./assets/img/pubg-autumn.webp" alt="">
+                                            </div>
+                                            <button class="body__event-cart-button">
+                                                <span class="body__event-cart-button-status">Kết thúc</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col l-6 body__event-info">
+                                        <div class="body__event-info-img">
+                                            <a href="" class="body__event-info-img-link" style="background-image: url(https://img.nimo.tv/o/banner/51A7B2D7F4691D0E9D77EF0FF02316B8_ae654df1a3d0d7de2a5f32ea94420de3.jpg/w640_l0/img.webp);">
+                                                <h3 class="body__event-info-header">
+                                                    The ALL STAR NIMO TV CUP. 
+                                                </h3>
+                                                <span class="body__event-info-tag">Free Fire</span>
+                                            </a>
+                                        </div>
+                                        <div class="body__event-info-cart">
+                                            <div class="body__event-cart-time">7:00, 20 thg 9</div>
+                                            <div class="body__event-cart-img">
+                                                <img src="https://img.nimo.tv/o/banner/2270CC099F42E0257C362B96FD6A69EE_c3155e11f76e76b04b8ca88bf20844a6.png/w120_l0/img.webp" alt="">
+                                            </div>
+                                            <button class="body__event-cart-button">
+                                                <span class="body__event-cart-button-status">Kết thúc</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
             </div>
         </div>
         
