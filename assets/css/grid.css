@@ -20,8 +20,8 @@
 .row-m{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -6px;
-    margin-right: -6px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .row {
@@ -31,24 +31,30 @@
     margin-right: -4px;
 }
 
+.row-m.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .row.no-gutters {
     margin-left: 0;
     margin-right: 0;
 }
 
-.col-s{
-    padding-left: 4px;
-    padding-right:4px;
-}
 
 .col-m{
-    padding-left: 6px;
-    padding-right:6px;
+    padding-left: 8px;
+    padding-right:8px;
 }
 
 .col {
     padding-left: 4px;
     padding-right: 4px;
+}
+
+.row-m.no-gutter .col-m {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .row.no-gutters .col {
@@ -312,11 +318,15 @@
         margin-right: -5px;
     }
 
+    .col-s {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
     .col {
         padding-left: 12px;
         padding-right: 12px;
     }
-
     .row.sm-gutter .col {
         padding-left: 5px;
         padding-right: 5px;
@@ -329,6 +339,7 @@
     .l-1,
     .l-2,
     .l-2-4,
+    .l-2-5,
     .l-3,
     .l-4,
     .l-5,
@@ -355,6 +366,11 @@
     .l-2-4 {
         flex: 0 0 20%;
         max-width: 20%;
+    }
+
+    .l-2-5 {
+        flex: 0 0 12.5%;
+        max-width: 12.5%;
     }
 
     .l-3 {
@@ -492,6 +508,7 @@
     .wide .l-1,
     .wide .l-2,
     .wide .l-2-4,
+    .wide .l-2-5,
     .wide .l-3,
     .wide .l-4,
     .wide .l-5,
@@ -518,6 +535,10 @@
     .wide .l-2-4 {
         flex: 0 0 20%;
         max-width: 20%;
+    }
+    .wide .l-2-5 {
+        flex: 0 0 12,5%;
+        max-width: 12,5%;
     }
 
     .wide .l-3 {
@@ -614,3 +635,4 @@
         margin-left: 91.66667%;
     }
 }
+

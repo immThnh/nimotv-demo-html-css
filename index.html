@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/font/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <title>NimoTV</title>
+    <link rel="icon" href="./assets/img/float-logo">
+    <link rel="stylesheet" href="app.js">
+    
 </head>
 <body>
     <div class="app">
-
         <div class="float-navigation">
             <div class="float-navigation__logo">
                 <img src="./assets/img/float-logo" alt="" class="float-navigation__logo-img">
@@ -65,7 +74,6 @@
                 <div class="header__navbar">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
-                            
                         </li>
                         <li class="header__navbar-item header__navbar-item--active">
                             <a href="#" class="header__navbar-item-link">
@@ -94,14 +102,14 @@
                                     <div class="row-s">
                                         <div class="header__category-item col-s l-4">
                                             <a title="Business Tour" class="header__category-item-link" href="#" style="background-image: url(https://img.nimo.tv/o/banner/453731B75BCE938659359BC84DC0A50_fb5b0c9e2de756d3b02bec317fb9f4d3.jpg/w240_l0/img.webp);">
-                                                <span class="header__category-item-title">
+                                                <span class="header__category-item-title t-1">
                                                     Business Tour
                                                 </span>
                                             </a>
                                         </div>
                                         <div class="header__category-item col-s l-4">
                                             <a title="Play Togerther" class="header__category-item-link" href="#" style="background-image:  url(https://img.nimo.tv/o/banner/F40CB06A2937771F062763E7500C393_fb5b0c9e2de756d3b02bec317fb9f4d3.jpg/w240_l0/img.webp);" >
-                                                <span class="header__category-item-title">
+                                                <span class="header__category-item-title t-1">
                                                     Play Togerther
                                                 </span>
                                             </a>
@@ -109,7 +117,7 @@
                                         <div class="header__category-item col-s l-4">
                                             <a title="Play Togerther" class="header__category-item-link" href="#" style="background-image:  url(https://img.nimo.tv/o/banner/7312418392AD38C69BA2D666BE7071AD_4ae75ac434ef123a99939f231757ccba.jpg/w240_l0/img.webp);">
                                                 <!-- <img src="assets/img/pkm.webp" alt="" class="header__category-item-img"> -->
-                                                <span class="header__category-item-title">
+                                                <span class="header__category-item-title t-1">
                                                     Ragnarok X: Next Generation
                                                 </span>
                                             </a>
@@ -117,7 +125,7 @@
                                         <div class="header__category-item col-s l-4">
                                             <a title="Pokémon UNITE" class="header__category-item-link" href="#" style="background-image:  url(https://img.nimo.tv/o/banner/54C6E4439F36189CDF609542D8DA770_d4d36d3cdc6f60d3182cd8c502f121b6.png/w240_l0/img.webp);">
                                                 <!-- <img src="assets/img/pkm.webp" alt="" class="header__category-item-img"> -->
-                                                <span class="header__category-item-title">
+                                                <span class="header__category-item-title t-1">
                                                     Pokémon UNITE
                                                 </span>
                                             </a>
@@ -125,7 +133,7 @@
                                         <div class="header__category-item col-s l-4">
                                             <a title="PC/Console" class="header__category-item-link" href="#" style="background-image:  url(https://img.nimo.tv/o/banner/B205B1A2DCBA636F7D4ECB52B7FFD0C4_31127821ac78d98ecfdb6cd2d6f7d824.jpg/w240_l0/img.webp);">
                                                 <!-- <img src="assets/img/pkm.webp" alt="" class="header__category-item-img"> -->
-                                                <span class="header__category-item-title">
+                                                <span class="header__category-item-title t-1">
                                                     PC/Console
                                                 </span>
                                             </a>
@@ -133,7 +141,7 @@
                                         <div class="header__category-item col-s l-4">
                                             <a title="ost ARK" class="header__category-item-link" href="#" style="background-image:  url(https://img.nimo.tv/o/banner/38ACA17DC15BB8EDD4A97EAB8505B44B_312x468.png/w240_l0/img.webp);">
                                                 <!-- <img src="assets/img/pkm.webp" alt="" class="header__category-item-img"> -->
-                                                <span class="header__category-item-title">
+                                                <span class="header__category-item-title t-1">
                                                     Lost ARK
                                                 </span>
                                             </a>
@@ -141,7 +149,7 @@
                                         <div class="header__category-item col-s l-4">
                                             <a title=" ARK: Survival Evolved" class="header__category-item-link" href="#" style="background-image:  url(https://img.nimo.tv/o/game/A869BE86987B8396FF4A71023CAE4BD5_poster.jpg/w240_l0/img.webp);">
                                                 <!-- <img src="assets/img/pkm.webp" alt="" class="header__category-item-img"> -->
-                                                <span class="header__category-item-title">
+                                                <span class="header__category-item-title t-1">
                                                     ARK: Survival Evolved
                                                 </span>
                                             </a>
@@ -149,7 +157,7 @@
                                         <div class="header__category-item col-s l-4">
                                             <a title="Tốc chiến" class="header__category-item-link" href="#" style="background-image:  url(https://img.nimo.tv/o/banner/907E352061A6EE3EF4E58A9B74F4E649_71e179563a513bbb7293c831593c0ed1.jpg/w240_l0/img.webp);">
                                                 <!-- <img src="assets/img/pkm.webp" alt="" class="header__category-item-img"> -->
-                                                <span class="header__category-item-title">
+                                                <span class="header__category-item-title t-1">
                                                     Tốc chiến
                                                 </span>
                                             </a>
@@ -157,7 +165,7 @@
                                         <div class="header__category-item col-s l-4">
                                             <a title="Nimo Show" class="header__category-item-link" href="#" style="background-image:  url(https://img.nimo.tv/o/banner/9BFDF699E480D6A4A3B8B4572FA90F69_06b6a603b0a97d3baa7dbdd9c86c8aaa.jpg/w240_l0/img.webp);">
                                                 <!-- <img src="assets/img/pkm.webp" alt="" class="header__category-item-img"> -->
-                                                <span class="header__category-item-title">
+                                                <span class="header__category-item-title t-1">
                                                     Nimo Show
                                                 </span>
                                             </a>
@@ -255,56 +263,161 @@
                 </div>
             </div>
         </div>
+
         <div class="body">
             <span class="body__heading">
-                <a href="" class="header__body-background">
-                    <img src="assets/img/background-gtaV.webp" alt="GTA V" class="header__body-img">
-                </a>
-            </span>
-
-            <div class="body__content">
-                <div class="body__navbar body-nav--has">
-                    <div class="body__navbar-title-wrap">
-                        <div class="body__navbar-title">
-                            <h1 class="body__navbar-title-text body__header--has">Trò chơi hàng đầu</h1>
-                            <span class="body__navbar-title-option">
-                                    Xem tất cả
-                                <div class="body__title-icon">
-                                    <i class="ti-angle-right "></i>
+                <a href="#" class="header__body-background" style="background-image: url(https://www.nimo.tv/nms/images/player-bg.a00088c97112e3edc12f8c34ed5ad9be.jpg);">
+                    <div class="body__poster">
+                        <div class="grid ">
+                            <div class="row ">
+                                <div class="col l-10 body__poster-video">
+                                        <div class="body__poster-video-link off-live">
+                                            <img src="https://vtcpay.vn/media2/upload/images/news/images/nap-kim-cuong-nimo-tv-voi-vi-vtc-pay-650x340.jpg" alt="">
+                                        </div>
+                                    <div class="body__poster-video-nav">
+                                        <div class="body__poster-video-control">
+                                            <div class="body__poster-control-icon">
+                                                <i class="fa-solid fa-pause"></i>
+                                            </div>
+                                            <div class="body__poster-control-icon">
+                                                <i class="fa-solid fa-rotate-right"></i>
+                                            </div>
+                                        </div>
+                                        <div class="body__poster-video-control">
+                                            <div class="body__poster-control-icon">
+                                                <i class="fa-solid fa-volume-high"></i>
+                                            </div>
+                                            <div class="body__poster-control-icon body__poster-control-quality br-12">
+                                                <span class="body__poster-control-text">
+                                                    480p
+                                                </span>
+                                                <ul class="body__quality-list">
+                                                    <li href="" class="body__quality-item">1080p</li>
+                                                    <li href="" class="body__quality-item">720p</li>
+                                                    <li href="" class="body__quality-item no-bd-bt">480p</li>
+                                                </ul>
+                                            </div>
+                                            <div class="body__poster-control-icon body__poster-control-move br-12">
+                                                <span class="body__poster-control-text body__poster-move-text">
+                                                    Vào phòng phát trực tiếp
+                                                    <i class="ti-angle-double-right "></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </span>
+                                <div class="col l-2 body__poster-label">
+                                    <div class="grid">
+                                        <ul class="body__poster-label-list l-12">
+                                            <li class="body__poster-label-item">
+                                                <div class="o-vd">
+                                                    <div class="body__poster-room-name room-name">
+                                                        <span>
+                                                            From Mixi with love
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <img src="https://img.nimo.tv/o/banner/F7B47185CD3AED0C543EA607D30FBDB_a5b9f8cb2c8ccd26911800446821ee95.jpg/w256_l0/img.webp" alt="" class="body__poster-item-img"></li>
+                                            <li class="body__poster-label-item">
+                                                <div class="o-vd">
+                                                    <div class="body__poster-room-name room-name">
+                                                        <span>
+                                                            From Mixi with love
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <img src="https://img.nimo.tv/o/banner/2BE9F952FDE18BD8144EECA767640C6_1482d6a7bfa4695ef98285ddcec204c5.jpg/w256_l0/img.webp" alt="" class="body__poster-item-img"></li>
+                                            <li class="body__poster-label-item">
+                                                <div class="o-vd">
+                                                        <div class="body__poster-room-name room-name">
+                                                            <span>
+                                                                From Mixi with love
+                                                            </span>
+                                                        </div>
+                                                </div>
+                                                <img src="https://img.nimo.tv/o/banner/758E379B123C0852C4CC4EF659B6E83E_5a832da0b7d4595446c950aa9e0b20b1.jpg/w256_l0/img.webp" alt="" class="body__poster-item-img"></li>
+                                            <li class="body__poster-label-item">
+                                                <div class="o-vd">
+                                                    <div class="body__poster-room-name room-name">
+                                                        <span>
+                                                            From Mixi with love
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <img src="https://img.nimo.tv/o/banner/A6D6074B6BF99ECC9C34545580911BB1_9830669ca36d2a4975f21412967c9c67.jpg/w256_l0/img.webp" alt="" class="body__poster-item-img">
+                                            </li>
+                                            <li class="body__poster-label-item">
+                                                <div class="o-vd">
+                                                    <div class="body__poster-room-name room-name">
+                                                        <span>
+                                                            From Mixi with love
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <img src="https://img.nimo.tv/o/banner/FC2B7E42F5F47B25C303ADE0B4E6BBB9_9adb2c98422df1896f9b3d2fc78e3c6f.jpg/w256_l0/img.webp" alt="" class="body__poster-item-img">
+                                            </li>
+                                            <li class="body__poster-label-item">
+                                                <div class="o-vd">
+                                                    <div class="body__poster-room-name room-name">
+                                                        <span>
+                                                            From Mixi with love
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <img src="https://img.nimo.tv/o/banner/94141E7B2D8DE994E7CD939FB8594D7D_232559b0184d6188a9965eb0fb74f91b.jpg/w256_l0/img.webp" alt="" class="body__poster-item-img"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        
-                        <ul class="body__navbar-list">
-                            <div class="body__navbar-item">
-                                <a href="" class="body__navbar-item-link">Toàn bộ</a>
-                            </div>
-                            <div class="body__navbar-item">
-                                <a href="" class="body__navbar-item-link">Mobile game</a>
-                            </div>
-                            <div class="body__navbar-item">
-                                <a href="" class="body__navbar-item-link">Pc Game</a>
-                            </div>
-                            <div class="body__navbar-item">
-                                <a href="" class="body__navbar-item-link">Giải trí </a>
-                            </div>
-                        </ul>
                     </div>
+                    
+                </a>
 
-                    <div class="body__content-pagination btn-pagination">
-                        <div class="body__content-pagination-icon button--not-active btn-pagination-icon">
-                            <i class="ti-angle-left body__pagination-arrow"></i>
-                        </div>
-                        <div class="body__content-pagination-icon btn-pagination-icon">
-                            <i class="ti-angle-right body__pagination-arrow"></i>
-                        </div>
-                    </div>
-                </div>
-
+            </span>
+            <div class="body__content">
+                <!-- ---Begin Body game--- -->
                 <div class="body__game">
                     <div class="grid">
+                        <div class="body__navbar body-nav--has">
+                            <div class="body__navbar-title-wrap">
+                                <div class="body__navbar-title">
+                                    <h1 class="body__navbar-title-text body__header--has">Trò chơi hàng đầu</h1>
+                                    <span class="body__navbar-title-option">
+                                            Xem tất cả
+                                        <div class="body__title-icon">
+                                            <i class="ti-angle-right "></i>
+                                        </div>
+                                    </span>
+                                </div>
+                                
+                                <ul class="body__navbar-list">
+                                    <div class="body__navbar-item">
+                                        <a href="" class="body__navbar-item-link">Toàn bộ</a>
+                                    </div>
+                                    <div class="body__navbar-item">
+                                        <a href="" class="body__navbar-item-link">Mobile game</a>
+                                    </div>
+                                    <div class="body__navbar-item">
+                                        <a href="" class="body__navbar-item-link">Pc Game</a>
+                                    </div>
+                                    <div class="body__navbar-item">
+                                        <a href="" class="body__navbar-item-link">Giải trí </a>
+                                    </div>
+                                </ul>
+                            </div>
+        
+                            <div class="body__content-pagination btn-pagination">
+                                <div class="body__content-pagination-icon button--not-active btn-pagination-icon">
+                                    <i class="ti-angle-left body__pagination-arrow"></i>
+                                </div>
+                                <div class="body__content-pagination-icon btn-pagination-icon">
+                                    <i class="ti-angle-right body__pagination-arrow"></i>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row no-gutters">
-                            <div class="col l-2 body__game-item">
+                            <div class="col l-2-5 body__game-item">
                                 <div class="cart-wrap">
                                     <div class="cart">
                                         <div class="cart-img">
@@ -319,7 +432,7 @@
                                                 </div>
                                             </div>
                                         <!-- <div class=""> -->
-                                            <img src="https://img.nimo.tv/o/banner/7644B1A8F5A0B1D65F4236AD87F5F637_286febde2064453836cff5aaa33ce1b3.jpg/w256_l0/img.webp" alt="">
+                                            <img src="assets/img/nimoshow.webp" alt="">
                                         <!-- </div> -->
                                         </div>
                                     </div>
@@ -337,7 +450,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2 body__game-item">
+                            <div class="col l-2-5 body__game-item">
                                 <div class="cart-wrap">
                                     <div class="cart">
                                         <div class="cart-img">
@@ -370,7 +483,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2 body__game-item">
+                            <div class="col l-2-5 body__game-item">
                                 <div class="cart-wrap">
                                     <div class="cart">
                                         <div class="cart-img">
@@ -403,7 +516,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2 body__game-item">
+                            <div class="col l-2-5 body__game-item">
                                 <div class="cart-wrap">
                                     <div class="cart">
                                         <div class="cart-img">
@@ -436,7 +549,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2 body__game-item">
+                            <div class="col l-2-5 body__game-item">
                                 <div class="cart-wrap">
                                     <div class="cart">
                                         <div class="cart-img">
@@ -469,7 +582,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2 body__game-item">
+                            <div class="col l-2-5 body__game-item">
                                 <div class="cart-wrap">
                                     <div class="cart">
                                         <div class="cart-img">
@@ -502,124 +615,634 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col l-2-5 body__game-item">
+                                <div class="cart-wrap">
+                                    <div class="cart">
+                                        <div class="cart-img">
+                                            <div class="cart-img__info">
+                                                <div class="cart-img-name">Liên Quân</div>
+                                                <div class="cart-img-wrap-icon">
+                                                    <div class="cart-img-icon">
+                                                        <svg fill = "#fff"
+                                                    width = "28px" height: = "28px"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <!-- <div class=""> -->
+                                            <img src="./assets/img/lien-quan.webp" alt="">
+                                        <!-- </div> -->
+                                        </div>
+                                    </div>
 
+                                    <div class="cart__title">
+                                        <span class="cart__title-name">
+                                            Liên Quân
+                                        </span>
+                                        <span class="cart__title-lives">
+                                            16 lives
+                                        </span>
+                                        <div class="cart__title-category">
+                                            <p>Mobile Game</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-5 body__game-item">
+                                <div class="cart-wrap">
+                                    <div class="cart">
+                                        <div class="cart-img">
+                                            <div class="cart-img__info">
+                                                <div class="cart-img-name">Free Fire</div>
+                                                <div class="cart-img-wrap-icon">
+                                                    <div class="cart-img-icon">
+                                                        <svg fill = "#fff"
+                                                    width = "28px" height: = "28px"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <!-- <div class=""> -->
+                                            <img src="./assets/img/free-fire.webp" alt="">
+                                        <!-- </div> -->
+                                        </div>
+                                    </div>
+
+                                    <div class="cart__title">
+                                        <span class="cart__title-name">
+                                            Free <Fire></Fire>
+                                        </span>
+                                        <span class="cart__title-lives">
+                                            12 lives
+                                        </span>
+                                        <div class="cart__title-category">
+                                            <p>Moblie Game</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-               <div class="grid">
                 <div class="body__event">
-                    <div class="row">
-                        <div class="body__event-item col-m l-6">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="body__event-item col-m l-6">
+                                <div class="grid">
+                                    <div class="row-m">
+                                        <div class="body__event-heading-link-wrap l-12 col-m">
+                                            <a href="" class="body__event-heading-link">
+                                                <h1 class="body__event-text body__header--has">Được đề xuất</h1>
+                                            </a>
+                                        </div>
+                                    <div class="col-m l-8 no-gutter">
+                
+                                            <div class="body__event-load">
+                                                <div class="body__event-load-item">
+                                                    <img class="body__event-load-img load" src="./assets/img/genshin.webp" alt = "Genshin Impact">
+                                                    </img>
+                                                </div>
+                                                <!-- <div class="body__event-load-item">
+                                                    <img class="body__event-load-img load" src="./assets/img/ahri.webp" alt = "Genshin Impact">
+                                                </div>
+                                                <div class="body__event-load-item">
+                                                    <img class="body__event-load-img load" src="./assets/img/event-pubg.webp" alt = "Genshin Impact">
+                                                </div>
+                                                <div class="body__event-load-item">
+                                                    <img class="body__event-load-img load" src="./assets/img/recruit-pubg.webp" alt = "Genshin Impact">
+                                                </div>
+                                                <div class="body__event-load-item">
+                                                    <img class="body__event-load-img load" src="./assets/img/challenges-t10.webp" alt = "Genshin Impact">
+                                                </div> -->
+                                                    <div class="body__event-pagination btn-pagination">
+                                                        <div class="body__event-pagination-icon btn-pagination-icon">
+                                                            <i class="ti-angle-left body__pagination-arrow"></i>
+                                                        </div>
+                                                        <div class="body__event-pagination-icon btn-pagination-icon">
+                                                            <i class="ti-angle-right body__pagination-arrow"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="slick-dot">
+                                                        <ul class="slick-dot__list">
+                                                            <li class="slick-dot__item slick-dot__item--active"></li>
+                                                            <li class="slick-dot__item"></li>
+                                                            <li class="slick-dot__item"></li>
+                                                            <li class="slick-dot__item"></li>
+                                                            <li class="slick-dot__item"></li>
+                                                        </ul>
+                                                    </div>
+
+                                            </div>
+                                    </div>
+
+                                    <div class="col-m l-4">
+                                            <div class="grid">
+                                                <div class="row-m">
+                                                    <div class="col-m l-12 body__event-broad">
+                                                        <a href="" class="body__event-broad-link">
+                                                            <img class="body__event-broad-img load" src="./assets/img/tranhdoat.webp"></img>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-m l-12 body__event-broad">
+                                                        <a href="" class="body__event-broad-link">
+                                                            <img class="body__event-broad-img load" src="./assets/img/phong-van.webp"></img>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6">
+                                <div class="body__event-bar body-nav--has">
+                                    <div class="body__navbar-title-wrap">
+                                        <div class="body__navbar-title">
+                                            <h1 class="body__navbar-title-text body__header--has">Sự kiện hay</h1>
+                                            <span class="body__navbar-title-option">
+                                                    Tất cả lịch thi đấu
+                                                <div class="body__title-icon">
+                                                    <i class="ti-angle-right "></i>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="btn-pagination">
+                                        <div class="btn-pagination-icon">
+                                            <i class="ti-angle-left body__pagination-arrow"></i>
+                                        </div>
+                                        <div class="btn-pagination-icon">
+                                            <i class="ti-angle-right body__pagination-arrow"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Begin even info -->
+                                <div class="grid">
+                                    <div class="row">
+                                        <div class="col-m no-gutters l-4 body__event-info">
+                                            <div class="body__img-info">
+                                                <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/ED75973729E640406BE65AE0BDB8661B_bc71a8778c9644329e9605f2a652a324.png/w640_l0/img.webp);">
+                                                    
+                                                    <h3 class="body__event-info-header">
+                                                        WDPVO 2022
+                                                    </h3>
+                                                    <span class="body__event-info-tag">PUBG</span>
+                                                </a>
+                                            </div>
+                                            <div class="body__event-info-cart">
+                                                <div class="body__event-cart-time">17:00, 10 thg 9</div>
+                                                <div class="body__event-cart-img">
+                                                    <img src="./assets/img/pubg-autumn.webp" alt="">
+                                                </div>
+                                                <button class="body__event-cart-button">
+                                                    <span class="body__event-cart-button-status">Kết thúc</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-m l-4 body__event-info">
+                                            <div class="body__img-info">
+                                                <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/51A7B2D7F4691D0E9D77EF0FF02316B8_ae654df1a3d0d7de2a5f32ea94420de3.jpg/w640_l0/img.webp);">
+                                                    <h3 class="body__event-info-header">
+                                                        The ALL STAR NIMO TV CUP. 
+                                                    </h3>
+                                                    <span class="body__event-info-tag">Free Fire</span>
+                                                </a>
+                                            </div>
+                                            <div class="body__event-info-cart">
+                                                <div class="body__event-cart-time">7:00, 20 thg 9</div>
+                                                <div class="body__event-cart-img">
+                                                    <img src="https://img.nimo.tv/o/banner/2270CC099F42E0257C362B96FD6A69EE_c3155e11f76e76b04b8ca88bf20844a6.png/w120_l0/img.webp" alt="">
+                                                </div>
+                                                <button class="body__event-cart-button">
+                                                    <span class="body__event-cart-button-status">Kết thúc</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-m l-4 body__event-info">
+                                            <div class="body__img-info">
+                                                <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/1F58E99E6C1B330F81AE6292C86963DE_220edc3e0264b3f4bc198bde445fc5df.png/w640_l0/img.webp);">
+                                                    <h3 class="body__event-info-header">
+                                                        The ALL STAR NIMO TV CUP. 
+                                                    </h3>
+                                                    <span class="body__event-info-tag">Free Fire</span>
+                                                </a>
+                                            </div>
+                                            <div class="body__event-info-cart">
+                                                <div class="body__event-cart-time">7:00, 20 thg 9</div>
+                                                <div class="body__event-cart-img">
+                                                    <img src="https://img.nimo.tv/o/banner/1F58E99E6C1B330F81AE6292C86963DE_220edc3e0264b3f4bc198bde445fc5df.png/w640_l0/img.webp" alt="">
+                                                </div>
+                                                <button class="body__event-cart-button">
+                                                    <span class="body__event-cart-button-status">Kết thúc</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End even info -->
+
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                <div class="body__streamer">
+                    <div class="grid">
+                        <div class="body__navbar-title-wrap">
+                            <div class="body__navbar-title">
+                                <h1 class="body__navbar-title-text body__header--has">HOT</h1>
+                                <span class="body__navbar-title-option">
+                                        Thêm
+                                    <div class="body__title-icon">
+                                        <i class="ti-angle-right "></i>
+                                    </div>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="body__stream-content-wrap">
                             <div class="grid">
                                 <div class="row-m">
-                                    <div class="body__event-heading-link-wrap l-12 col-m">
-                                        <a href="" class="body__event-heading-link">
-                                            <h1 class="body__event-text body__header--has">Được đề xuất</h1>
-                                        </a>
-                                    </div>
-                                   <div class="col-m l-8">
-                                        <div class="grid">
-                                            <div class="row-m">
-                                                
-                                            </div>
-                                        </div>
-            
-                                        <div class="body__event-load">
-                                            <img class="body__event-load-img load" src="./assets/img/genshin.webp" alt = "Genshin Impact">
-                                                <div class="body__event-pagination btn-pagination">
-                                                    <div class="body__event-pagination-icon btn-pagination-icon">
-                                                        <i class="ti-angle-left body__pagination-arrow"></i>
-                                                    </div>
-                                                    <div class="body__event-pagination-icon btn-pagination-icon">
-                                                        <i class="ti-angle-right body__pagination-arrow"></i>
-                                                    </div>
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/29A611C077D07088F74342C01735CD6F_87a64861b3afda390ae1ba9860f4710a.jpg/w800_l0/img.webp);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
                                                 </div>
-                                            </img>
-                                        </div>
-                                   </div>
-
-                                   <div class="col l-4">
-                                        <div class="grid">
-                                            <div class="row-m">
-                                                <div class="col-m l-12 body__event-broad">
-                                                    <a href="" class="body__event-broad-link">
-                                                        <img class="body__event-broad-img load" src="./assets/img/tranhdoat.webp"></img>
-                                                    </a>
-                                                </div>
-                                                <div class="col-m l-12 body__event-broad">
-                                                    <a href="" class="body__event-broad-link">
-                                                        <img class="body__event-broad-img load" src="./assets/img/phong-van.webp"></img>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                      
-                                   </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col l-6">
-                            <div class="body__event-bar body-nav--has">
-                                <div class="body__navbar-title-wrap">
-                                    <div class="body__navbar-title">
-                                        <h1 class="body__navbar-title-text body__header--has">Sự kiện hay</h1>
-                                        <span class="body__navbar-title-option">
-                                                Tất cả lịch thi đấu
-                                            <div class="body__title-icon">
-                                                <i class="ti-angle-right "></i>
-                                            </div>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="btn-pagination">
-                                    <div class="btn-pagination-icon">
-                                        <i class="ti-angle-left body__pagination-arrow"></i>
-                                    </div>
-                                    <div class="btn-pagination-icon">
-                                        <i class="ti-angle-right body__pagination-arrow"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="grid">
-                                <div class="row">
-                                    <div class="col l-6 body__event-info">
-                                        <div class="body__event-info-img">
-                                            <a href="" class="body__event-info-img-link" style="background-image: url(https://img.nimo.tv/o/banner/ED75973729E640406BE65AE0BDB8661B_bc71a8778c9644329e9605f2a652a324.png/w640_l0/img.webp);">
-                                                <h3 class="body__event-info-header">
-                                                    WDPVO 2022
-                                                </h3>
-                                                <span class="body__event-info-tag">PUBG</span>
+                                                <span class="body__stream-info-tag body-info-tag">League of legends</span>
                                             </a>
-                                        </div>
-                                        <div class="body__event-info-cart">
-                                            <div class="body__event-cart-time">17:00, 10 thg 9</div>
-                                            <div class="body__event-cart-img">
-                                                <img src="./assets/img/pubg-autumn.webp" alt="">
+                                        </img>
+                                        
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="./assets/img/anie.webp" alt="">
                                             </div>
-                                            <button class="body__event-cart-button">
-                                                <span class="body__event-cart-button-status">Kết thúc</span>
-                                            </button>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Idol mới ước BỤT ạ
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">
+                                                    Snake
+                                                </a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category">
+                                                        <p>Kỹ năng</p>
+                                                    </span>
+                                                    <span class="cart__title-category cart__info-category">
+                                                        <p>Hài hước</p>
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            64.2k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col l-6 body__event-info">
-                                        <div class="body__event-info-img">
-                                            <a href="" class="body__event-info-img-link" style="background-image: url(https://img.nimo.tv/o/banner/51A7B2D7F4691D0E9D77EF0FF02316B8_ae654df1a3d0d7de2a5f32ea94420de3.jpg/w640_l0/img.webp);">
-                                                <h3 class="body__event-info-header">
-                                                    The ALL STAR NIMO TV CUP. 
-                                                </h3>
-                                                <span class="body__event-info-tag">Free Fire</span>
+                                    <!---------- body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(./assets/img/sena);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">Nimo Show</span>
                                             </a>
-                                        </div>
-                                        <div class="body__event-info-cart">
-                                            <div class="body__event-cart-time">7:00, 20 thg 9</div>
-                                            <div class="body__event-cart-img">
-                                                <img src="https://img.nimo.tv/o/banner/2270CC099F42E0257C362B96FD6A69EE_c3155e11f76e76b04b8ca88bf20844a6.png/w120_l0/img.webp" alt="">
+                                        </img>
+                                        
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="./assets/img/sena-logo.webp" alt="">
                                             </div>
-                                            <button class="body__event-cart-button">
-                                                <span class="body__event-cart-button-status">Kết thúc</span>
-                                            </button>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Xem CKTG neooo
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">
+                                                    Senahihi
+                                                </a>
+                                                <div class="body__stream-info-label">
+                                                    <!-- <span class="cart__title-category cart__info-category ">
+                                                        <p>Kỹ năng</p>
+                                                    </span>
+                                                    <span class="cart__title-category cart__info-category">
+                                                        <p>Hài hước</p>
+                                                    </span> -->
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            17.3k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/C54C2010665B81A6E4D46D538FD9B77B_fa975a13abe1da562deb9e0afb1a5862.jpg?t=1664979720000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">Nimo Show</span>
+                                            </a>
+                                        </img>
+                                        
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1599511722238/202111221637585250268_1599511722238_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">hi ^^</h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Hằng Đàm</a>
+                                                <div class="body__stream-info-label">
+                                                    <!-- <span class="cart__title-category cart__info-category ">
+                                                        <p>Kỹ năng</p>
+                                                    </span>-->
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span> 8.4k</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/44F56AADDB52A5ED92686DF3459BDB8E_5cc9880c521662a060ed5f6c3cb38b94.jpg?t=1665082320000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">LMHT</span>
+                                            </a>
+                                        </img>
+                                        
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1599517130530/202009031599123319063_1599517130530_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Custom ai là trùm LỐI ĐI RIÊNG
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">
+                                                    iLoda
+                                                </a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Dự đoán</p>
+                                                    </span>
+                                                    
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            9k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/EDB529899869F5F79C899EF3BB941417_294d9e3fc9a6f1fca31f3f05d6195305.jpg?t=1664958480000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">LMHT</span>
+                                            </a>
+                                        </img>
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1629525701018/202007081594225086140_1629525701018_avatar.jpg/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Hello !
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">
+                                                    SBTC Celebrity
+                                                </a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Dự đoán</p>
+                                                    </span>
+                                                    
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            9.4k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/38959406580D0CE224AFA3FA6AFE17E2_d031ab6d794ca15761bc1aad0ca58c98.jpg?t=1665090120000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">GTA5</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/201907081562587247030_1599512126145_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        From MixiGaming with love!
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Mixi gaming</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Kỹ năng</p>
+                                                    </span>
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Hài hước</p>
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            261.3k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/60E5772B3C5D3CAA3EAF2341EE1044E6_d1e6b53e9fe1cc81d373977e2db84d00.jpg?t=1665004560000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">GTA5</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1639511734795/202106081623144614350_1639511734795_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        [MISTHY] Playinggame
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Misthy</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            26.9k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/35CC399A024FC3CE57DA3D9532457FD5_8aebdfd74c5d0b72210b5894d55b8c74.jpg?t=1665084000000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">GTA5</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1599513410186/202202281646059481003_1599513410186_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Ước bụt
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Nobi Phạm</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category">
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>5.4k</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/5E5E71F5819A497FB0F0949674E8822B_1df636116fa864bb9495ad1b85cdff7a.jpg?t=1665157920000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">GTA5</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1599516028885/202206041654350791543_1599516028885_avatar.png/w120_l0/img.png" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Kếnh tấu hài đêm phia!!
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Mai Dora</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Hài Hước</p>
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>22.1k</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/E9CF177D78ED63DBB5EA0D89729AFD98_c3fdfc2dbc0b51e861cb6422c2cb3e5e.jpg?t=1664976240000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">PUBG</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1639511734675/202108291630224883494_1639511734675_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        X2 Vé fan mn oiii!
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Tippy</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>12.0k</span>
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -627,12 +1250,540 @@
                         </div>
                     </div>
                 </div>
-               </div>
+                <div class="body__team">
+                    <div class="body__navbar body-nav--has">
+                        <div class="body__navbar-title-wrap">
+                            <div class="body__navbar-title">
+                                <h1 class="body__navbar-title-text body__header--has">Pro Team</h1>
+                            </div>
+                        </div>
+                        <div class="body__content-pagination btn-pagination">
+                            <div class="body__content-pagination-icon button--not-active btn-pagination-icon">
+                                <i class="ti-angle-left body__pagination-arrow"></i>
+                            </div>
+                            <div class="body__content-pagination-icon btn-pagination-icon">
+                                <i class="ti-angle-right body__pagination-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid mt-t-20">
+                        <div class="row">
+                            <div class="body__team-iteam-wrap col l-4 ">
+                                <a class="body__team-item">
+                                    <div class="body__team-item-img">
+                                        <img class="" src="https://img.nimo.tv/o/banner/42F04521FB82E3237194393E48315D90_d3688afbc816aaf948e8199cc66b2522.jpg/w680_l0/img.webp" alt="">
+                                    </div>
+                                <div class="body__team-item-note">
+                                    <div class="body__team-note-text">
+                                        Team Competitivo Region: Sur / Norte
+                                    </div>
+                                </div>
+                                <div class="body__team-item-label">
+                                        <div class="body__team-label-wrap">
+                                            <span>
+                                                <img src="https://img.nimo.tv/o/banner/42F04521FB82E3237194393E48315D90_d3688afbc816aaf948e8199cc66b2522.jpg/w680_l0/img.webp" alt="" class="body__team-label-logo">
+                                            </span>
+                                            <div class="body__team-label-text t-1">Team GOD</div>
+                                            <div class="body__team-label-icon">
+                                                <i class="ti-angle-right"></i>
+                                            </div>
+                                        </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="body__team-iteam-wrap col l-4 ">
+                                <a class="body__team-item">
+                                    <div class="body__team-item-img">
+                                        <img class="" src="https://img.nimo.tv/o/banner/1AF04E0156E0F9B5AC4EB982FF189945_c9fde492bb3a5a83d70c126e8b7f8808.jpg/w680_l0/img.webp" alt="">
+                                    </div>
+                                <div class="body__team-item-note">
+                                    <div class="body__team-note-text">
+                                        Indian NO.1 Team
+                                    </div>
+                                </div>
+                                <div class="body__team-item-label">
+                                        <div class="body__team-label-wrap">
+                                            <span>
+                                                <img src="https://img.nimo.tv/o/banner/1AF04E0156E0F9B5AC4EB982FF189945_c9fde492bb3a5a83d70c126e8b7f8808.jpg/w680_l0/img.webp" alt="" class="body__team-label-logo">
+                                            </span>
+                                            <div class="body__team-label-text t-1">S8ul</div>
+                                            <div class="body__team-label-icon">
+                                                <i class="ti-angle-right"></i>
+                                            </div>
+                                        </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="body__team-iteam-wrap col l-4 ">
+                                <a class="body__team-item">
+                                    <div class="body__team-item-img">
+                                        <img class="" src="https://img.nimo.tv/o/banner/66FDFAC5EDEF7CD99C13D7BFEE60C8B1_c88326411cacf54388dd51e2b20c72a2.png/w680_l0/img.webp" alt="">
+                                    </div>
+                                <div class="body__team-item-note">
+                                    <div class="body__team-note-text">
+                                        Professional Thailand RoV E-sports Team
+                                    </div>
+                                </div>
+                                <div class="body__team-item-label">
+                                        <div class="body__team-label-wrap">
+                                            <span>
+                                                <img src="https://img.nimo.tv/o/banner/66FDFAC5EDEF7CD99C13D7BFEE60C8B1_c88326411cacf54388dd51e2b20c72a2.png/w680_l0/img.webp" alt="" class="body__team-label-logo">
+                                            </span>
+                                            <div class="body__team-label-text ">Valencia CF Esports</div>
+                                            <div class="body__team-label-icon">
+                                                <i class="ti-angle-right"></i>
+                                            </div>
+                                        </div>
+                                </div>
+                                </a>
+                            </div>
+                          
+                        </div>
+
+                    </div>
+                </div>
+                <div class="body__streamer">
+                    <div class="grid">
+                        <div class="body__navbar-title-wrap">
+                            <div class="body__navbar-title">
+                                <h1 class="body__navbar-title-text body__header--has">Nimo Show</h1>
+                                <span class="body__navbar-title-option">
+                                        Thêm
+                                    <div class="body__title-icon">
+                                        <i class="ti-angle-right "></i>
+                                    </div>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="body__stream-content-wrap">
+                            <div class="grid">
+                                <div class="row-m">
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/29A611C077D07088F74342C01735CD6F_87a64861b3afda390ae1ba9860f4710a.jpg/w800_l0/img.webp);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">League of legends</span>
+                                            </a>
+                                        </img>
+                                        
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="./assets/img/anie.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Idol mới ước BỤT ạ
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">
+                                                    Snake
+                                                </a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category">
+                                                        <p>Kỹ năng</p>
+                                                    </span>
+                                                    <span class="cart__title-category cart__info-category">
+                                                        <p>Hài hước</p>
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            64.2k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!---------- body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(./assets/img/sena);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">Nimo Show</span>
+                                            </a>
+                                        </img>
+                                        
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="./assets/img/sena-logo.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Xem CKTG neooo
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">
+                                                    Senahihi
+                                                </a>
+                                                <div class="body__stream-info-label">
+                                                    <!-- <span class="cart__title-category cart__info-category ">
+                                                        <p>Kỹ năng</p>
+                                                    </span>
+                                                    <span class="cart__title-category cart__info-category">
+                                                        <p>Hài hước</p>
+                                                    </span> -->
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            17.3k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/C54C2010665B81A6E4D46D538FD9B77B_fa975a13abe1da562deb9e0afb1a5862.jpg?t=1664979720000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">Nimo Show</span>
+                                            </a>
+                                        </img>
+                                        
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1599511722238/202111221637585250268_1599511722238_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">hi ^^</h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Hằng Đàm</a>
+                                                <div class="body__stream-info-label">
+                                                    <!-- <span class="cart__title-category cart__info-category ">
+                                                        <p>Kỹ năng</p>
+                                                    </span>-->
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span> 8.4k</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/44F56AADDB52A5ED92686DF3459BDB8E_5cc9880c521662a060ed5f6c3cb38b94.jpg?t=1665082320000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">LMHT</span>
+                                            </a>
+                                        </img>
+                                        
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1599517130530/202009031599123319063_1599517130530_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Custom ai là trùm LỐI ĐI RIÊNG
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">
+                                                    iLoda
+                                                </a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Dự đoán</p>
+                                                    </span>
+                                                    
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            9k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/EDB529899869F5F79C899EF3BB941417_294d9e3fc9a6f1fca31f3f05d6195305.jpg?t=1664958480000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">LMHT</span>
+                                            </a>
+                                        </img>
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1629525701018/202007081594225086140_1629525701018_avatar.jpg/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Hello !
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">
+                                                    SBTC Celebrity
+                                                </a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Dự đoán</p>
+                                                    </span>
+                                                    
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            9.4k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/38959406580D0CE224AFA3FA6AFE17E2_d031ab6d794ca15761bc1aad0ca58c98.jpg?t=1665090120000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">GTA5</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/201907081562587247030_1599512126145_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        From MixiGaming with love!
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Mixi gaming</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Kỹ năng</p>
+                                                    </span>
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Hài hước</p>
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            261.3k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/60E5772B3C5D3CAA3EAF2341EE1044E6_d1e6b53e9fe1cc81d373977e2db84d00.jpg?t=1665004560000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">GTA5</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1639511734795/202106081623144614350_1639511734795_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        [MISTHY] Playinggame
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Misthy</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>
+                                                            26.9k
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/35CC399A024FC3CE57DA3D9532457FD5_8aebdfd74c5d0b72210b5894d55b8c74.jpg?t=1665084000000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">GTA5</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1599513410186/202202281646059481003_1599513410186_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Ước bụt
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Nobi Phạm</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category">
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>5.4k</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/5E5E71F5819A497FB0F0949674E8822B_1df636116fa864bb9495ad1b85cdff7a.jpg?t=1665157920000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">GTA5</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1599516028885/202206041654350791543_1599516028885_avatar.png/w120_l0/img.png" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        Kếnh tấu hài đêm phia!!
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Mai Dora</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                        <p>Hài Hước</p>
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>22.1k</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                    <!-- Body stream item -->
+                                    <div class="col-m l-2-4 body__stream-item ">
+                                        <img class="body__img-info">
+                                            <a href="" class="body__img-info-link" style="background-image: url(https://web-ops.nimostatic.tv/banner/E9CF177D78ED63DBB5EA0D89729AFD98_c3fdfc2dbc0b51e861cb6422c2cb3e5e.jpg?t=1664976240000);">
+                                                <div class="body__img-info-overlay">
+                                                    <i class="body__img-overlay-pause fa-solid fa-circle-play"></i>
+                                                </div>
+                                                <span class="body__stream-info-tag body-info-tag">PUBG</span>
+                                            </a>
+                                        </img>
+                                        <!-- Begin body streamer cart -->
+                                        <div class="body__stream-cart-info">
+                                            <div class="body__stream-cart-avatar ">
+                                                    <img src="https://img.nimo.tv/t/1639511734675/202108291630224883494_1639511734675_avatar.png/w120_l0/img.webp" alt="">
+                                            </div>
+
+                                            <div class="body__stream-cart-content">
+                                                <a href="" class="body__stream-info-name-link">
+                                                    <h4 class="body__stream-info-name">
+                                                        X2 Vé fan mn oiii!
+                                                    </h4>
+                                                </a>
+                                                <a href="" class="body__stream-info-as">Tippy</a>
+                                                <div class="body__stream-info-label">
+                                                    <span class="cart__title-category cart__info-category ">
+                                                    </span>
+                                                    <span class="cart__info-view">
+                                                        <i class="fa-regular fa-user cart__view-icon"></i>
+                                                        <span>12.0k</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+        </div>
+
+        <div class="footer">
+            <div class="footer__media">
+               <ul class="footer__media-list">
+                    <li class="footer__media-item">
+                        <a class="footer__media-item-icon"><i class="fa-brands fa-square-facebook"></i></a>
+                    </li>
+                    <li class="footer__media-item">
+                        <a class="footer__media-item-icon"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="footer__media-item">
+                        <a class="footer__media-item-icon"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="footer__media-item">
+                        <a class="footer__media-item-icon"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+               </ul>
+            </div>
+            <div class="footer__contact">
+                <ul class="footer__contact-list">
+                    <li class="footer__contact-item no-bd-bt"><a class="footer__contact-item-content">Về chúng tôi</a></li>
+                    <li class="footer__contact-item"><a class="footer__contact-item-content">Liên lạc với chúng tôi</a></li>
+                    <li class="footer__contact-item"><a class="footer__contact-item-content">Tải về</a></li>
+                    <li class="footer__contact-item"><a class="footer__contact-item-content">Chích sách Cookie</a></li>
+                    <li class="footer__contact-item"><a class="footer__contact-item-content">Chính sách quyền riêng tư</a></li>
+                    <li class="footer__contact-item"><a class="footer__contact-item-content">Thỏa Thuận</a></li>
+                    <li class="footer__contact-item"><a class="footer__contact-item-content">BXH cảm ơn</a></li>
+                    <li class="footer__contact-item"><a class="footer__contact-item-content">Open Platform</a></li>
+                </ul>
+            </div>
+            <div class="footer__copyright">
+                Copyright © 2018-2022 Huya PTE. LTD. All Rights Reserved
             </div>
         </div>
-        
     </div>
-    
-    
 </body>
 </html>
