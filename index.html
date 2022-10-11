@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-      />
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/font/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
     <title>NimoTV</title>
     <link rel="icon" href="./assets/img/float-logo">
     <link rel="stylesheet" href="app.js">
@@ -87,7 +101,7 @@
                             <span class="header__navbar-active"></span>
                         </a>
                         </li>  
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item ">
                             <a href="#" class="header__navbar-item-link">
                                 Phân loại
                             </a>
@@ -203,6 +217,50 @@
                                     </div>
                                 </span>
                             </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-recharge ct">
+                                <span class="header__navbar-reccharge-icon" >
+                                    <img src="https://www.nimo.tv/nms/images/topup-diamond.54c407baed259dfc727efa5806af92df.png" alt="">
+                                </span>
+                                Nạp
+                            </span>
+                        </li>
+
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-live ct">
+                                <img src="./assets/img/go-live-logo.png" alt="" class="header__navbar-live-img">
+                                Phát trực tiếp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <i class="fa-solid fa-download header__navbar-dowload">
+                            </i>
+                            <div class="header__navbar-dowload-list has-arrow has-sub-list">
+                                <h3 class="header__navbar-dowload-title">
+                                    Tải về ứng dụng
+                                </h3>
+                                <div class="header__navbar-dowload-app ct">
+                                    <i class="fa-brands fa-apple"></i>
+                                        <span>
+                                            App Store
+                                        </span>
+                                </div>
+                                <div class="header__navbar-dowload-ggplay">
+                                    <i class="fa-brands fa-google-play"></i>
+                                    Google Play
+                                </div>
+                                <div class="header__navbar-dowload-qr">
+                                    <img src="https://www.nimo.tv/nms/images/qrcodeNimotv_header.d497320243bbfe52e86c67c0e2a47e58.png" alt="" class="header__navbar-qr-img">
+                                    <div>
+                                        Quét mã QR tải về
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            
+                        </li>
+                        <li class="header__navbar-item">
                             <!-- -----Bengin header option ------->
                             <label class="header__navbar-option" for="label-check">
                                 <i class="ti-more-alt"></i>
@@ -252,12 +310,12 @@
                             <!-- -----Bengin header option ------->
                         </li>
                         <li class="header__navbar-item">
-                            <button class="header__navbar-button">
+                            <label class="header__navbar-button" for="close-modal">
                                 Đăng ký
-                            </button>
-                            <button class="header__navbar-button">
+                            </label>
+                            <label class="header__navbar-button" for="close-modal">
                                 Đăng nhập
-                            </button>
+                            </label>
                         </li>
                     </ul>
                 </div>
@@ -407,16 +465,16 @@
                                 </ul>
                             </div>
         
-                            <div class="body__content-pagination btn-pagination">
+                            <!-- <div class="body__content-pagination btn-pagination">
                                 <div class="body__content-pagination-icon button--not-active btn-pagination-icon">
                                     <i class="ti-angle-left body__pagination-arrow"></i>
                                 </div>
                                 <div class="body__content-pagination-icon btn-pagination-icon">
                                     <i class="ti-angle-right body__pagination-arrow"></i>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="row no-gutters">
+                        <div class="row no-gutters body__game-cart">
                             <div class="col l-2-5 body__game-item">
                                 <div class="cart-wrap">
                                     <div class="cart">
@@ -681,6 +739,10 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col l-2-5 body__game-item">
+                            -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -702,7 +764,7 @@
                                                     <img class="body__event-load-img load" src="./assets/img/genshin.webp" alt = "Genshin Impact">
                                                     </img>
                                                 </div>
-                                                <!-- <div class="body__event-load-item">
+                                                <div class="body__event-load-item">
                                                     <img class="body__event-load-img load" src="./assets/img/ahri.webp" alt = "Genshin Impact">
                                                 </div>
                                                 <div class="body__event-load-item">
@@ -713,17 +775,17 @@
                                                 </div>
                                                 <div class="body__event-load-item">
                                                     <img class="body__event-load-img load" src="./assets/img/challenges-t10.webp" alt = "Genshin Impact">
-                                                </div> -->
-                                                    <div class="body__event-pagination btn-pagination">
+                                                </div>
+                                                    <!-- <div class="body__event-pagination btn-pagination">
                                                         <div class="body__event-pagination-icon btn-pagination-icon">
                                                             <i class="ti-angle-left body__pagination-arrow"></i>
                                                         </div>
                                                         <div class="body__event-pagination-icon btn-pagination-icon">
                                                             <i class="ti-angle-right body__pagination-arrow"></i>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
 
-                                                    <div class="slick-dot">
+                                                    <!-- <div class="slick-dot">
                                                         <ul class="slick-dot__list">
                                                             <li class="slick-dot__item slick-dot__item--active"></li>
                                                             <li class="slick-dot__item"></li>
@@ -731,7 +793,7 @@
                                                             <li class="slick-dot__item"></li>
                                                             <li class="slick-dot__item"></li>
                                                         </ul>
-                                                    </div>
+                                                    </div> -->
 
                                             </div>
                                     </div>
@@ -769,75 +831,78 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="btn-pagination">
+                                    <!-- <div class="btn-pagination">
                                         <div class="btn-pagination-icon">
                                             <i class="ti-angle-left body__pagination-arrow"></i>
                                         </div>
                                         <div class="btn-pagination-icon">
                                             <i class="ti-angle-right body__pagination-arrow"></i>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <!-- Begin even info -->
-                                <div class="grid">
+                                <div class="grid ">
                                     <div class="row">
-                                        <div class="col-m no-gutters l-4 body__event-info">
-                                            <div class="body__img-info">
-                                                <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/ED75973729E640406BE65AE0BDB8661B_bc71a8778c9644329e9605f2a652a324.png/w640_l0/img.webp);">
-                                                    
-                                                    <h3 class="body__event-info-header">
-                                                        WDPVO 2022
-                                                    </h3>
-                                                    <span class="body__event-info-tag">PUBG</span>
-                                                </a>
-                                            </div>
-                                            <div class="body__event-info-cart">
-                                                <div class="body__event-cart-time">17:00, 10 thg 9</div>
-                                                <div class="body__event-cart-img">
-                                                    <img src="./assets/img/pubg-autumn.webp" alt="">
+                                        <div class="event-info">
+                                            <div class="col-m no-gutters l-4 body__event-info">
+                                                <div class="body__img-info">
+                                                    <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/ED75973729E640406BE65AE0BDB8661B_bc71a8778c9644329e9605f2a652a324.png/w640_l0/img.webp);">
+                                                        
+                                                        <h3 class="body__event-info-header">
+                                                            WDPVO 2022
+                                                        </h3>
+                                                        <span class="body__event-info-tag">PUBG</span>
+                                                    </a>
                                                 </div>
-                                                <button class="body__event-cart-button">
-                                                    <span class="body__event-cart-button-status">Kết thúc</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="col-m l-4 body__event-info">
-                                            <div class="body__img-info">
-                                                <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/51A7B2D7F4691D0E9D77EF0FF02316B8_ae654df1a3d0d7de2a5f32ea94420de3.jpg/w640_l0/img.webp);">
-                                                    <h3 class="body__event-info-header">
-                                                        The ALL STAR NIMO TV CUP. 
-                                                    </h3>
-                                                    <span class="body__event-info-tag">Free Fire</span>
-                                                </a>
-                                            </div>
-                                            <div class="body__event-info-cart">
-                                                <div class="body__event-cart-time">7:00, 20 thg 9</div>
-                                                <div class="body__event-cart-img">
-                                                    <img src="https://img.nimo.tv/o/banner/2270CC099F42E0257C362B96FD6A69EE_c3155e11f76e76b04b8ca88bf20844a6.png/w120_l0/img.webp" alt="">
+                                                <div class="body__event-info-cart">
+                                                    <div class="body__event-cart-time">17:00, 10 thg 9</div>
+                                                    <div class="body__event-cart-img">
+                                                        <img src="./assets/img/pubg-autumn.webp" alt="">
+                                                    </div>
+                                                    <button class="body__event-cart-button">
+                                                        <span class="body__event-cart-button-status">Kết thúc</span>
+                                                    </button>
                                                 </div>
-                                                <button class="body__event-cart-button">
-                                                    <span class="body__event-cart-button-status">Kết thúc</span>
-                                                </button>
                                             </div>
-                                        </div>
-                                        <div class="col-m l-4 body__event-info">
-                                            <div class="body__img-info">
-                                                <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/1F58E99E6C1B330F81AE6292C86963DE_220edc3e0264b3f4bc198bde445fc5df.png/w640_l0/img.webp);">
-                                                    <h3 class="body__event-info-header">
-                                                        The ALL STAR NIMO TV CUP. 
-                                                    </h3>
-                                                    <span class="body__event-info-tag">Free Fire</span>
-                                                </a>
-                                            </div>
-                                            <div class="body__event-info-cart">
-                                                <div class="body__event-cart-time">7:00, 20 thg 9</div>
-                                                <div class="body__event-cart-img">
-                                                    <img src="https://img.nimo.tv/o/banner/1F58E99E6C1B330F81AE6292C86963DE_220edc3e0264b3f4bc198bde445fc5df.png/w640_l0/img.webp" alt="">
+                                            <div class="col-m l-4 body__event-info">
+                                                <div class="body__img-info">
+                                                    <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/51A7B2D7F4691D0E9D77EF0FF02316B8_ae654df1a3d0d7de2a5f32ea94420de3.jpg/w640_l0/img.webp);">
+                                                        <h3 class="body__event-info-header">
+                                                            The ALL STAR NIMO TV CUP. 
+                                                        </h3>
+                                                        <span class="body__event-info-tag">Free Fire</span>
+                                                    </a>
                                                 </div>
-                                                <button class="body__event-cart-button">
-                                                    <span class="body__event-cart-button-status">Kết thúc</span>
-                                                </button>
+                                                <div class="body__event-info-cart">
+                                                    <div class="body__event-cart-time">7:00, 20 thg 9</div>
+                                                    <div class="body__event-cart-img">
+                                                        <img src="https://img.nimo.tv/o/banner/2270CC099F42E0257C362B96FD6A69EE_c3155e11f76e76b04b8ca88bf20844a6.png/w120_l0/img.webp" alt="">
+                                                    </div>
+                                                    <button class="body__event-cart-button">
+                                                        <span class="body__event-cart-button-status">Kết thúc</span>
+                                                    </button>
+                                                </div>
                                             </div>
+                                            <div class="col-m l-4 body__event-info">
+                                                <div class="body__img-info">
+                                                    <a href="" class="body__img-info-link" style="background-image: url(https://img.nimo.tv/o/banner/1F58E99E6C1B330F81AE6292C86963DE_220edc3e0264b3f4bc198bde445fc5df.png/w640_l0/img.webp);">
+                                                        <h3 class="body__event-info-header">
+                                                            The ALL STAR NIMO TV CUP. 
+                                                        </h3>
+                                                        <span class="body__event-info-tag">Free Fire</span>
+                                                    </a>
+                                                </div>
+                                                <div class="body__event-info-cart">
+                                                    <div class="body__event-cart-time">7:00, 20 thg 9</div>
+                                                    <div class="body__event-cart-img">
+                                                        <img src="https://img.nimo.tv/o/banner/1F58E99E6C1B330F81AE6292C86963DE_220edc3e0264b3f4bc198bde445fc5df.png/w640_l0/img.webp" alt="">
+                                                    </div>
+                                                    <button class="body__event-cart-button">
+                                                        <span class="body__event-cart-button-status">Kết thúc</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-m l-4 body__event-info"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -1784,6 +1849,108 @@
                 Copyright © 2018-2022 Huya PTE. LTD. All Rights Reserved
             </div>
         </div>
+
+        
+    <!-- ------Modal Login------- -->
+    <input class = "close-madal-form" type="checkbox" hidden name="" id="close-modal">
+    <div class="overlay">
+        <div class="form">
+            <label class="form__close ct" for="close-modal">
+                <i class="fa-solid fa-xmark form__close-icon"></i>
+                
+            </label>
+            <div class="form__header ct">
+                <div class="form__header-logo">
+                    <img src="./assets/img/Logo.png" alt="">
+                </div>
+                <div class="form__header-feature">
+                    Đăng nhập
+                </div>
+                <div class="form__header-feature current-feature">
+                    Đăng ký
+                </div>
+            </div>
+            <div class="form__body">
+                <div class="form__body-left">
+                    <div class="form__body-title">Đăng ký bằng số điện thoại</div>
+                    <div class="form__body-input">
+                        <span class="form__body-phone-area">+84
+                            <svg fill = "#a9a9a9" width = "9px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path id = "down-arrow" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
+                        </span>
+                        <div class="line"></div>
+                        <input type="text" class="form__body-input-sdt input-form" placeholder="Nhập số điện thoại di động">
+                    </div>
+                    <div class="form__body-code">
+                        <input type="text" class="form__body-input-code input-form" placeholder="Nhập mã xác nhận">
+                        <button class="form__body-receive-code input-form btn-log">Nhận mã xác nhận</button>
+                    </div>
+                    <div class="form__body-pass input-form ct">
+                        <input type= "text" class="form__body-input-pass  input-form" placeholder="Nhâp mật khẩu">
+                        <i class="fa-regular fa-eye form__body-pass-icon"></i>
+                    </div>
+                    <div class="form__body-title form__body-title-pass">Mật khẩu phải gồm 6-20 ký tự chữ cái và chữ số</div>
+                    <button class="form__body-btn input-form btn-log">Đăng ký</button>
+                </div>
+
+                <div class="line line-full-h"></div>
+
+                <div class="form__body-right">
+                    <div class="form__body-title">Đăng nhập bằng ứng dụng bên thứ 3</div>
+                    <div class="form__body-app">
+                        <div class="form__body-app-item ct">
+                            <img src="https://www.nimo.tv/nms/images/fb.cef7e0196a425b1048e237b066853fc3.png" alt="" class="form__body-facebook-im">
+                            Facebook
+                        </div>
+                        <div class="form__body-app-item ct">
+                            <img src="https://www.nimo.tv/nms/images/gg.aa32e0112633342e04844fbfc7b63a0d.png" class ="form__body-google-img" alt="">
+                            Google
+                        </div>
+                        <div class="form__body-app-item ct">
+                            <img src="https://www.nimo.tv/nms/images/tw.d0d9e4853afe6acaad9577a0f36134b2.png" class ="form__body-twitter-img" alt="">
+                            Twitter
+                        </div>
+                    </div>
+                    <div class="line-h"></div>
+                    <div class="form__body-title form__body-more ct">Thêm 
+                        <div class="form__body-title-icon ti-angle-down"></div>
+                        <!-- <div class="form__body-app-item ct">
+                            <img src="https://www.nimo.tv/nms/images/apple.6045241a83e236239d9a7b1347b41934.png" class ="form__body-twitter-img" alt="">
+                            Apple
+                        </div>
+                        <div class="form__body-app-item ct">
+                            <img src="https://www.nimo.tv/nms/images/line.92f59089d2a65e1d6a2d1c0b817703f1.png" class ="form__body-twitter-img" alt="">
+                            Line
+                        </div> -->
+                    </div>
+                    <span class="form__body-agree">
+                        Đăng ký có nghĩa bạn đồng ý với 
+                        <a href="" class="form__body-agree-link">Thỏa thuận người dùng</a> và
+                        <a href="" class="form__body-agree-link">Chính sách Quyền riêng tư</a>
+                    </span>
+                </div>
+
+            </div>
+        </div>
     </div>
+    </div>
+
+
+    <div class="scrollbar" id="style-1">
+        <div class="force-overflow"></div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./app.js"></script>
 </body>
 </html>
