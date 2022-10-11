@@ -827,7 +827,7 @@
     border: 1px solid var(--border-color);
     background-color: var(--primary-color);
     color: var(--border-color);
-    margin-bottom: 6px;
+    margin: 6px 0;
     cursor: pointer
 }
 .body__event-cart-button-status{
@@ -1304,7 +1304,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 100;
     display: none;
 }

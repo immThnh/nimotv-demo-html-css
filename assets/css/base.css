@@ -116,6 +116,12 @@ a{
     width: 100%;
 }
 
+.has-bs {
+    border-color: #1e1e1e;
+    box-shadow: 0 5px 30px #000;
+	border-radius: 6px;
+}
+
 .has-sub-list {
 	border-color: #1e1e1e;
     box-shadow: 0 5px 30px #000;
@@ -341,6 +347,7 @@ a{
     height: var(--cart-img);
     object-fit: cover;
     margin-bottom: 4px;
+    margin: auto;
 }
 
 .body-cart--has img{
