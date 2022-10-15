@@ -43,6 +43,17 @@ a{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.as-pointer,
+label,
+button  {
+    cursor: pointer;
+} 
+
+.no-dp{
+    display: none;
+}
+
+
 
 .ct {
     display: flex;
@@ -56,6 +67,10 @@ a{
 
 .mt-t-20 {
     margin-top: -20px;
+}
+
+.mt-t-10 {
+    margin-top: -10px;
 }
 
 .o-vd {
@@ -420,4 +435,49 @@ a{
 
 .slick-arrow.slick-disabled {
     cursor: no-drop;
+}
+
+
+/* Responsive */
+/* PC low resolution */
+@media (min-width: 1113px) and (max-width: 1544px) {
+    .body__content {
+        padding: 30px 30px 80px 30px
+    }
+    .app {
+        overflow: hidden;
+    }
+    .body__poster {
+        width: 1000px;
+        height: 520px;
+    }
+    .o-vd {
+        height: 76px;   
+    }
+    .body__poster-video {
+        height: 520px;
+    }
+
+    .body__poster-item-img {
+        height: 100%;
+    }
+    .o-vd .room-name {
+        bottom: -6px;
+    }
+
+    .body__heading-wrap {
+        height: 520px;
+    }
+
+    .row {
+        flex-wrap: nowrap !important;
+    }
+
+    .footer__contact-item-content {
+        font-size: 1.2rem;
+    }
+    
+    .footer__media-item-icon {
+        font-size: 3.2rem;
+    }
 }
